@@ -1,0 +1,62 @@
+{
+  "largemanufacturer": [
+    {
+      "compid": "1",
+      "name": "ZF Friedrichshafen",
+      "organature": "corporation",
+      "entitytype": "branch",
+      "maincountry": "Germany"
+    },
+    {
+      "compid": "2",
+      "name": "Sanofi",
+      "organature": "partnership",
+      "entitytype": "subsidiary",
+      "maincountry": "France"
+    },
+    {
+      "compid": "3",
+      "name": "Stella",
+      "organature": "corporation",
+      "entitytype": "entire organization",
+      "maincountry": "Italy"
+    },
+    {
+      "compid": "4",
+      "name": "Müller GmbH",
+      "organature": "sole proprietorship",
+      "entitytype": "department",
+      "maincountry": "Germany"
+    }
+  ],
+  "smallservice": [
+    {
+      "compid": "1",
+      "name": "Arnold Auditing",
+      "organature": "partnership",
+      "entitytype": "department",
+      "maincountry": "Germany"
+    },
+    {
+      "compid": "2",
+      "name": "Fair Well",
+      "organature": "sole proprietorship",
+      "entitytype": "larger organization",
+      "maincountry": "Great Brittain"
+    },
+    {
+      "compid": "3",
+      "name": "IMKER",
+      "organature": "partnership",
+      "entitytype": "larger organization",
+      "maincountry": "Germany"
+    },
+    {
+      "compid": "4",
+      "name": "Steline",
+      "organature": "sole proprietorship",
+      "entitytype": "department",
+      "maincountry": "Italy"
+    }
+  ]
+}
