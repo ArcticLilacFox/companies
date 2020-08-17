@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, my name is Sheldon. For your interview training, I can connect you to different types of companies. In order to start, please choose s company size (small / medium / large) by responding 'I choose a *** +++ company'. Instead of *** enter: small, medium or large. And instead of +++ enter: manufacturer, service or retail. Example: 'I choose a small retail company', 'I choose a large service company', 'I choose a medium manufacturer company' etc."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "choosesmallservice",
+      "patterns": [
+		"I choose a small service company", 
+		"I choose a small service", 
+		"I choose small service",
+		"small service"
+		],
+      "responses": [
+		"Thank you. You are now connected to a small service company named 'Fritz Auditing'. You can start asking questions right away.",
+		"Thank you. You are now connected to a small service company named 'Stellina Glas Ware'. You can start asking questions right away.", 
+		"Thank you. You are now connected to a small service company named 'Ariadne´s Flowers'. You can start asking questions right away.",
+		"Thank you. You are now connected to a small service company named 'Oriental Tea Shop'. You can start asking questions right away."
+	  ]
+    },
+    {
+      "tag": "largemanufacturer",
+      "patterns": [
+		"I choose a large manufacturer company", 
+		"I choose a large manufacturer", 
+		"I choose large large manufacturer", 
+		"large manufacturer"
+      ],
+      "responses": [
+		"Thank you. You are now connected to a large manufacturer named 'Rosenthal'. You can start asking questions right away.",
+		"Thank you. You are now connected to a large manufacturer company named 'ADW Wheels'. You can start asking questions right away.", 
+		"Thank you. You are now connected to a large manufacturer company named 'Müller Milk Products'. You can start asking questions right away.",
+		"Thank you. You are now connected to a large manufacturer company named 'Veleda'. You can start asking questions right away."
+      ]
+    },
+    {
+      "tag": "organature",
+      "patterns": [
+        "What is the nature of the organization?",
+        "What kind of organization?",
+        "What organization type?",
+        "What orga type is the company?"
+      ],
+      "responses": [
+        "Our organization is a Corporation.",
+        "Our organization is a sole proprietorship.",
+		"Our organization is a partnership."
+      ]
+    },
+    {
+      "tag": "companyentity",
+      "patterns": [
+        "Is the entity, where the ERP will be implemented, a subsidiary or branch, or departent of a large organization?",
+        "What kind of entity?",
+        "Which in part of the company will ERP implemented?"
+      ],
+      "responses": [
+        "An ERP system is to be implemented in our entire company.",
+        "An ERP system is to be implemented in our subsidiary.",
+		"An ERP system is to be implemented in our branch.",
+		"An ERP system is to be implemented in our department."
+		
+      ]
+    },
+    {
+      "tag": "origincountry",
+      "patterns": [
+        "What is the country of origin of the Parent company?",
+        "Why country is the origin?",
+        "What is the origin country?",
+		"The origin country?"
+      ],
+      "responses": [
+        "The company´s headquarters are located in Spain.",
+        "The company´s headquarters are located in Germany.",
+		"The company´s headquarters are located in France."
+      ]
+    },
+	{
+      "tag": "goodbye",
+      "patterns": [
+        "Thank you very much. Goodbye.",
+        "Bye.",
+        "Goodbye."
+      ],
+      "responses": [
+        "I´m glad I could help. Goodbye.",
+        "If you have any further questions, just consult me again. Goodbye.",
+		"I hope the answers I gave you were satisfactory. Goodbye."
+      ]
+    }
+  ]
+}
